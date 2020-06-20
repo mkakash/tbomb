@@ -736,7 +736,7 @@ def start(target, counter, delay, ch, cc):
         print("     Please keep your data connection active during bombing !!    ")
         print("==================================================================")
         print("             Aalude number              : +" + str(cc) + " ", target)
-        print("             chambam request koduthathu : ", requested)
+        print("             chamban request koduthathu : ", requested)
         print("             chambiyathu                : ", success)
         print("             oombiyathu                 : ", failed)
         print("==================================================================")
