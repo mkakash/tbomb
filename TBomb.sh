@@ -24,7 +24,7 @@ do
 rm *.xxx >/dev/null 2>&1
 clear
 echo -e "\e[1;31m"
-figlet TBomb
+figlet tbomb
 echo -e "\e[1;34m Created By \e[1;32m"
 toilet -f mono12 -F border SpeedX
 echo -e "\e[4;34m This Bomber Was Created By SpeedX \e[0m"
@@ -58,15 +58,15 @@ elif [ $ch -eq 3 ];then
 clear
 apt install git -y
 echo -e "\e[1;34m Downloading Latest Files..."
-git clone https://github.com/TheSpeedX/TBomb
-if [[ -s TBomb/TBomb.sh ]];then
-cd TBomb
+git clone https://github.com/mkakash/tbomb
+if [[ -s tbomb/TBomb.sh ]];then
+cd tbomb
 cp -r -f * .. > temp
 cd ..
-rm -rf  TBomb >> temp
+rm -rf  tbomb >> temp
 rm update.speedx >> temp
 rm temp
-chmod +x TBomb.sh
+chmod +x tbomb.sh
 fi
 echo -e "\e[1;32m TBomb Will Restart Now..."
 echo -e "\e[1;32m All The Required Packages Will Be Installed..."
@@ -77,7 +77,7 @@ exit
 elif [ $ch -eq 4 ];then
 clear
 echo -e "\e[1;33m"
-figlet TBomb
+figlet tbomb
 echo -e "\e[1;34mCreated By \e[1;34m"
 toilet -f mono12 -F border SpeedX
 echo  " "
@@ -115,7 +115,7 @@ clear
 elif [ $ch -eq 5 ];then
 clear
 echo -e "\e[1;31m"
-figlet TBomb
+figlet tbomb
 echo -e "\e[1;34m Created By \e[1;32m"
 toilet -f mono12 -F border SpeedX
 echo -e "\e[1;34m For Any Queries Mail Me!!!\e[0m"
