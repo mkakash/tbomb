@@ -818,7 +818,7 @@ while True:
         cc = cc.strip()
     pn = input("\taalude number adikku: +" + cc + " ")
     pn = remsp(pn)
-    if pn == "9495257771" or pn == "7012253490":
+    if pn == "9495257771" or pn == "7012253490" or pn == "9400836474" or pn == "9497819728" or pn == "8075349151":
         print('\n\nPoda patti enikkittu thangunna!!')
         continue
     if len(cc) >= 4 or len(cc) < 1:
